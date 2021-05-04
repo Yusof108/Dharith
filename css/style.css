@@ -1,0 +1,235 @@
+/* Global */
+
+body{
+    background-color: #6B847C!important;
+    
+}
+
+/* Header */
+
+.jumbotron{
+   
+    background-color: #E5EDA7!important;
+    box-shadow: 0 0 20px 3px #785228;
+}
+
+/* Nav */
+.navbar-nav{
+    box-shadow: 0 0 20px 1px #785228;
+}
+
+nav ul li a.btn{
+    border-radius: 0;
+}
+
+nav ul li.active{
+    background-color: #B3544C;
+}
+
+nav ul li a.current{
+    color: #fff!important;
+}
+
+nav ul li a.nav-link {
+    font-size: 20px;
+    
+    
+}
+.nav-item{
+    background-color: #F9DBBD;
+    
+}
+
+nav #myNavbar{
+    justify-content: center;
+}
+
+
+nav .cart-icon{
+   font-size: 24px;
+   padding-right: 10px;
+}
+.cartIcon{
+    position:absolute;
+    right: 10px;
+    top:10px;
+}
+
+/*Social Side Button*/
+#socialSide{
+    position:fixed;
+    width:60px;
+    z-index:1000;
+}
+#socialSide button{
+    border:none;
+    border-radius: 15%;
+    width:100%;
+    text-align: center;
+}
+#igButton {
+ background-color:#833AB4;
+}
+.fab.fa-instagram{
+    color:white;
+}
+#fbButton {
+    background-color: #3b5998;
+}
+.fa-facebook-f {
+    color: white;
+}
+#taButton{
+    background-color:#00AF87;
+}
+.fab.fa-tripadvisor{
+    color:black;
+}
+
+/* Carousel */
+.carousel-item img{
+    max-height: 350px;
+}
+
+#carouselSection{
+    background-color:#E9E3B7;
+    box-shadow: 0 0 20px 3px #785228;
+}
+/* About */
+#aboutSection{
+    background-color:#E9E3B7;
+    box-shadow: 0 0 20px 3px #785228;
+
+}
+#aboutBox{
+    margin:50px auto 50px auto;
+    padding: 30px 0;
+}
+#aboutText {
+    max-width:400px;
+    margin:auto;
+}
+#aboutImage{
+    width: auto;
+}
+#aboutImage img{
+    padding: 10px;
+    width:100%;
+}
+/* Customer Review */
+#reviewSection{
+    background-color:#E9E3B7;
+    box-shadow: 0 0 20px 3px #785228;
+    padding-top: 30px;
+}
+
+#reviewBox{
+    margin:auto;
+    padding: 30px 0;
+}
+#reviewImage{
+    width:100%;
+}
+
+#reviewImage img{
+    max-height: 250px;
+    margin:auto;
+}
+
+#igVideo {
+    margin:auto;
+    min-width: max-content;
+}
+
+
+
+/* Contact */
+#contactBox{
+    justify-content:center;
+}
+
+/* Footer */
+#contactSection{
+    padding-top: 30px;
+    background-color: #E9E3B7;
+    box-shadow: 0 0 20px 3px #785228;
+}
+.footer p{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+#oh{
+    font-size: 20px;
+    align-self: center;
+
+}
+#oh2{
+    margin:auto;
+    width:max-content;
+    border: 1px solid black;
+}
+#followUs {
+    padding-top: 20px;
+}
+
+
+/* Menu */
+
+#menu{
+    text-align: center;
+    
+}
+
+.card-body{
+    background-color: #E9E3B7;
+}
+
+.card{
+    box-shadow: 0 0 20px 1px #785228;
+}
+
+.cart-items td{
+  border-bottom: red solid 1px;
+}
+
+
+
+
+/* Cart */
+
+.btn-purchase{
+    float: right;
+}
+
+td input.cart-quantity{
+    width: 40px;
+}
+#totalText{
+    min-width:max-content;
+    margin:auto;
+}
+
+.cart .btn-danger{
+    margin-top: 50px;  
+}
+
+.table-responsive{
+    overflow-y: hidden;
+    overflow-x :auto;
+    background-color: #E9E3B7;
+    box-shadow: 0 0 20px 1px #785228;
+    
+}
+
+
+/* Media Queries*/
+
+
+/* icon */
+
+.fab ,.fas{
+    font-size: 40px;
+    padding: 5px;
+}

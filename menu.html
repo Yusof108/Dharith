@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="">
+	<meta name="keywords" content="">
+    <title>Kedai Kopi D'Harith</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7f8f07744b.js" crossorigin="anonymous"></script>
+    <script src="js/cart.js" async></script>
+  </head>
+<body>
+
+<!--- Start Header Section ---->
+<div class="jumbotron jumbotron-fluid text-center m-0 p-0 pt-2">
+  <img class="w-50" src="images/header.png">
+    <div class="container">      
+      <p>Address: Unit 20, Ground Floor HMR Complex, Jalan Komersial Jaya Setia, Bandar Seri Begawan BB2713</p>
+    </div>
+  </div>
+
+<!--- End Header Section ---->
+
+<!--- Start Nav ---->
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+  <div class="container-fluid">
+
+    <div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>  
+ 
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-dark" href="index.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link btn btn-outline-dark current" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link btn btn-outline-dark" href="index.html#aboutSection">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-dark" href="index.html#contactSection">Contact</a>
+      </li>
+      </ul>
+    </div>
+
+    <div class="cartIcon">
+      <a href="menu.html#yourCart"><i class ="fas fa-shopping-cart cart-icon text-body"></i></a>
+    </div>
+ 
+  </div>
+</nav>
+<!--- End Nav ---->
+
+<!--- Start Menu ---->
+<div id="menu" class="container-fluid">
+  <div id="menu2" class="row pt-4">
+    <div class="col-sm-3 p-2">
+      <div class="card">
+        <img class="card-img-top shop-item-image" src="images/BBQCM.png" alt="card image" width="100%">
+        <div class="shop-item card-body">
+         <h5 class="shop-item-title">BBQ Chicken Kolomee</h5>
+         <p class="shop-item-price">$4.00</p>
+        <button class="btn btn-primary shop-item-btn" type="button"> ADD TO CART</button>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-sm-3 p-2">
+      <div  class="card">
+        <img class="card-img-top shop-item-image" src="images/BBQCR.png" alt="card image" width="100%">
+        <div class="shop-item card-body">
+          <h5 class="shop-item-title">BBQ Chicken Rice</h5>
+          <p class="shop-item-price">$4.00</p>
+          <button class="btn btn-primary shop-item-btn" type="button"> ADD TO CART</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 p-2">
+      <div  class="card">
+        <img class="card-img-top shop-item-image" src="images/RCM.png" alt="card image" width="100%">
+        <div class="shop-item card-body">
+          <h5 class="shop-item-title">Roasted Chicken Kolomee</h5>
+          <p class="shop-item-price">$3.50</p>
+          <button class="btn btn-primary shop-item-btn" type="button"> ADD TO CART</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 p-2">
+      <div  class="card">
+        <img class="card-img-top shop-item-image" src="images/RCR.png" alt="card image" width="100%">
+        <div class="shop-item card-body">
+          <h5 class="shop-item-title">Roasted Chicken Rice</h5>
+          <p class="shop-item-price">$3.50</p>
+          <button class="btn btn-primary shop-item-btn" type="button"> ADD TO CART</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row pt-4">
+    <div class="col-sm-3 p-2">
+      <div  class="card">
+        <img class="card-img-top shop-item-image" src="images/RDM.png" alt="card image" width="100%">
+        <div class="shop-item card-body">
+          <h5 class="shop-item-title">Roasted Duck Kolomee</h5>
+          <p class="shop-item-price">$5.00</p>
+          <button class="btn btn-primary shop-item-btn" type="button"> ADD TO CART</button>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-sm-3 p-2">
+      <div  class="card">
+        <img class="card-img-top shop-item-image" src="images/RDR.png" alt="card image" width="100%">
+        <div class="shop-item card-body">
+          <h5 class="shop-item-title">Roasted Duck Rice</h5>
+          <p class="shop-item-price">$5.00</p>
+          <button class="btn btn-primary shop-item-btn" type="button"> ADD TO CART</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 p-2">
+      <div  class="card">
+        <img class="card-img-top shop-item-image" src="images/SCM.png" alt="card image" width="100%">
+        <div class="shop-item card-body">
+          <h5 class="shop-item-title">Steam Chicken Kolomee</h5>
+          <p class="shop-item-price">$3.50</p>
+          <button class="btn btn-primary shop-item-btn" type="button"> ADD TO CART</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 p-2">
+      <div  class="card">
+        <img class="card-img-top shop-item-image" src="images/SCR.png" alt="card image" width="100%">
+        <div class="shop-item card-body">
+          <h5 class="shop-item-title">Steam Chicken Rice</h5>
+          <p class="shop-item-price">$3.50</p>
+          <button class="btn btn-primary shop-item-btn" type="button"> ADD TO CART</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<br>
+<br>
+<!--- End Menu ---->
+
+<!--- Start Cart ---->
+<div class="container table-responsive" id="yourCart" >
+
+  <table class="table">
+    <thead class="thead-dark">
+    <tr>
+      <th>Food</th>
+      <th>Quantity</th>
+      <th>Price</th>
+    </tr>
+    </thead>
+    <tbody class="cart-items">
+      
+    </tbody>
+  </table>
+
+  <hr>
+  <div class="row">
+    <div class="col-8 text-right">
+      <h3 class="total-price pt-2 pr-4">Total:</h3>
+    </div>
+    <div class="col-2" id="totalText" >
+    <span class="display-4 cart-total-price">$0</span>
+    </div>
+    <div class="col-2 mt-3" id="totalText">
+      <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </div>
+
+  </div>
+
+</div>
+
+<!--- End Cart ---->
+
+<!--- Start Footer ---->
+<hr>
+<div class = "footer">
+    <p>&copy; Kedai Kopi D'Harith(2021)</p>
+  </div>
+<!--- End Footer ---->
+
+</body>
+</html>
